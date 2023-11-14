@@ -1,0 +1,326 @@
+[
+    {
+        "id": "755391b1153916bc67b5dce2",
+        "title": "Luxury Beachfront Villa",
+        "description": "Stunning villa with ocean views",
+        "price": 150000,
+        "address": "123 Ocean Drive",
+        "city": "Miami",
+        "country": "USA",
+        "image": "someImageUrl2.jpg",
+        "facilities": {
+            "beds": 5,
+            "bathrooms": 4,
+            "pool": true
+        },
+        "userEmail": "johndoe@example.com",
+        "createdAt": "2023-11-14T15:30:00.000Z",
+        "updatedAt": "2023-11-14T15:30:00.000Z"
+    },
+    {
+        "id": "645391b1153916bc67b5dce3",
+        "title": "Cozy Mountain Cabin",
+        "description": "Escape to the mountains in this charming cabin",
+        "price": 80000,
+        "address": "456 Pine Road",
+        "city": "Aspen",
+        "country": "USA",
+        "image": "cabinImageUrl.jpg",
+        "facilities": {
+            "beds": 3,
+            "bathrooms": 2,
+            "fireplace": true
+        },
+        "userEmail": "janedoe@example.com",
+        "createdAt": "2023-11-15T09:45:00.000Z",
+        "updatedAt": "2023-11-15T09:45:00.000Z"
+    },
+    {
+        "id": "765391b1153916bc67b5dce4",
+        "title": "Modern City Apartment",
+        "description": "Contemporary apartment in the heart of the city",
+        "price": 120000,
+        "address": "789 Downtown Avenue",
+        "city": "New York",
+        "country": "USA",
+        "image": "apartmentImageUrl.jpg",
+        "facilities": {
+            "beds": 2,
+            "bathrooms": 2,
+            "gym": true
+        },
+        "userEmail": "marysmith@example.com",
+        "createdAt": "2023-11-16T14:20:00.000Z",
+        "updatedAt": "2023-11-16T14:20:00.000Z"
+    },
+    {
+        "id": "875391b1153916bc67b5dce5",
+        "title": "Rustic Country Cottage",
+        "description": "Quaint cottage in a peaceful countryside setting",
+        "price": 75000,
+        "address": "101 Meadow Lane",
+        "city": "Napa Valley",
+        "country": "USA",
+        "image": "cottageImageUrl.jpg",
+        "facilities": {
+            "beds": 4,
+            "bathrooms": 2,
+            "garden": true
+        },
+        "userEmail": "davidbrown@example.com",
+        "createdAt": "2023-11-17T11:10:00.000Z",
+        "updatedAt": "2023-11-17T11:10:00.000Z"
+    },
+    {
+        "id": "985391b1153916bc67b5dce6",
+        "title": "Seaside Bungalow",
+        "description": "Charming bungalow steps away from the beach",
+        "price": 90000,
+        "address": "25 Shoreline Avenue",
+        "city": "Santa Monica",
+        "country": "USA",
+        "image": "bungalowImageUrl.jpg",
+        "facilities": {
+            "beds": 2,
+            "bathrooms": 1,
+            "oceanView": true
+        },
+        "userEmail": "susanjones@example.com",
+        "createdAt": "2023-11-18T08:55:00.000Z",
+        "updatedAt": "2023-11-18T08:55:00.000Z"
+    },
+    {
+        "id": "735391b1153916bc67b5dce7",
+        "title": "Ski-in/Ski-out Chalet",
+        "description": "Slope-side chalet for winter sports enthusiasts",
+        "price": 110000,
+        "address": "78 Mountain Trail",
+        "city": "Park City",
+        "country": "USA",
+        "image": "chaletImageUrl.jpg",
+        "facilities": {
+            "beds": 6,
+            "bathrooms": 5,
+            "skiAccess": true
+        },
+        "userEmail": "michaelwilson@example.com",
+        "createdAt": "2023-11-19T16:35:00.000Z",
+        "updatedAt": "2023-11-19T16:35:00.000Z"
+    },
+    {
+        "id": "645391b1153916bc67b5dce8",
+        "title": "Historic Townhouse",
+        "description": "Elegant townhouse with a rich history",
+        "price": 135000,
+        "address": "321 Heritage Street",
+        "city": "Charleston",
+        "country": "USA",
+        "image": "townhouseImageUrl.jpg",
+        "facilities": {
+            "beds": 4,
+            "bathrooms": 3,
+            "fireplace": true
+        },
+        "userEmail": "karenmiller@example.com",
+        "createdAt": "2023-11-20T13:15:00.000Z",
+        "updatedAt": "2023-11-20T13:15:00.000Z"
+    },
+    {
+        "id": "765391b1153916bc67b5dce9",
+        "title": "Mountain View Retreat",
+        "description": "Serene retreat with breathtaking mountain views",
+        "price": 95000,
+        "address": "55 Tranquil Lane",
+        "city": "Denver",
+        "country": "USA",
+        "image": "retreatImageUrl.jpg",
+        "facilities": {
+            "beds": 3,
+            "bathrooms": 2,
+            "mountainView": true
+        },
+        "userEmail": "petergreen@example.com",
+        "createdAt": "2023-11-21T10:05:00.000Z",
+        "updatedAt": "2023-11-21T10:05:00.000Z"
+    },
+    {
+        "id": "875391b1153916bc67b5dcea",
+        "title": "Lakefront Cabin",
+        "description": "Cozy cabin with a private lakefront setting",
+        "price": 85000,
+        "address": "88 Lakeside Drive",
+        "city": "Lake Tahoe",
+        "country": "USA",
+        "image": "lakefrontImageUrl.jpg",
+        "facilities": {
+            "beds": 2,
+            "bathrooms": 1,
+            "lakefrontView": true
+        },
+        "userEmail": "emilywhite@example.com",
+        "createdAt": "2023-11-22T12:40:00.000Z",
+        "updatedAt": "2023-11-22T12:40:00.000Z"
+    },{
+            "id": "985391b1153916bc67b5dceb",
+            "title": "Elegant City Penthouse",
+            "description": "Spacious penthouse with panoramic city views",
+            "price": 220000,
+            "address": "789 Highrise Avenue",
+            "city": "San Francisco",
+            "country": "USA",
+            "image": "penthouseImageUrl.jpg",
+            "facilities": {
+                "beds": 3,
+                "bathrooms": 3,
+                "terrace": true
+            },
+            "userEmail": "markanderson@example.com",
+            "createdAt": "2023-11-23T09:25:00.000Z",
+            "updatedAt": "2023-11-23T09:25:00.000Z"
+        },
+        {
+            "id": "745391b1153916bc67b5dcec",
+            "title": "Secluded Forest Cabin",
+            "description": "Get away from it all in this hidden cabin",
+            "price": 95000,
+            "address": "42 Forest Retreat Road",
+            "city": "Big Sur",
+            "country": "USA",
+            "image": "forestCabinImageUrl.jpg",
+            "facilities": {
+                "beds": 2,
+                "bathrooms": 1,
+                "forestView": true
+            },
+            "userEmail": "laurasmith@example.com",
+            "createdAt": "2023-11-24T14:30:00.000Z",
+            "updatedAt": "2023-11-24T14:30:00.000Z"
+        },
+        {
+            "id": "865391b1153916bc67b5dced",
+            "title": "Historic Castle",
+            "description": "Live like royalty in this centuries-old castle",
+            "price": 350000,
+            "address": "1 Castle Lane",
+            "city": "Edinburgh",
+            "country": "UK",
+            "image": "castleImageUrl.jpg",
+            "facilities": {
+                "beds": 10,
+                "bathrooms": 8,
+                "moat": true
+            },
+            "userEmail": "williamjones@example.com",
+            "createdAt": "2023-11-25T11:55:00.000Z",
+            "updatedAt": "2023-11-25T11:55:00.000Z"
+        },
+        {
+            "id": "775391b1153916bc67b5dcee",
+            "title": "Beachside Condo",
+            "description": "Convenient condo steps from the beach",
+            "price": 125000,
+            "address": "567 Shoreline Drive",
+            "city": "San Diego",
+            "country": "USA",
+            "image": "condoImageUrl.jpg",
+            "facilities": {
+                "beds": 2,
+                "bathrooms": 2,
+                "beachAccess": true
+            },
+            "userEmail": "sarahbrown@example.com",
+            "createdAt": "2023-11-26T08:15:00.000Z",
+            "updatedAt": "2023-11-26T08:15:00.000Z"
+        },
+        {
+            "id": "695391b1153916bc67b5dcef",
+            "title": "Mountain Cabin Retreat",
+            "description": "A peaceful retreat in the midst of nature",
+            "price": 85000,
+            "address": "35 Tranquility Lane",
+            "city": "Breckenridge",
+            "country": "USA",
+            "image": "mountainCabinImageUrl.jpg",
+            "facilities": {
+                "beds": 3,
+                "bathrooms": 2,
+                "hotTub": true
+            },
+            "userEmail": "danielwilson@example.com",
+            "createdAt": "2023-11-27T16:50:00.000Z",
+            "updatedAt": "2023-11-27T16:50:00.000Z"
+        },
+        {
+            "id": "895391b1153916bc67b5dcf0",
+            "title": "Historic Brownstone",
+            "description": "Charming brownstone in a historic neighborhood",
+            "price": 175000,
+            "address": "456 Heritage Street",
+            "city": "Brooklyn",
+            "country": "USA",
+            "image": "brownstoneImageUrl.jpg",
+            "facilities": {
+                "beds": 4,
+                "bathrooms": 3,
+                "fireplace": true
+            },
+            "userEmail": "olivialee@example.com",
+            "createdAt": "2023-11-28T13:40:00.000Z",
+            "updatedAt": "2023-11-28T13:40:00.000Z"
+        },
+        {
+            "id": "785391b1153916bc67b5dcf1",
+            "title": "Ski Chalet with a View",
+            "description": "Ski-in/ski-out chalet with mountain views",
+            "price": 180000,
+            "address": "72 Mountain Lodge Road",
+            "city": "Whistler",
+            "country": "Canada",
+            "image": "skiChaletImageUrl.jpg",
+            "facilities": {
+                "beds": 5,
+                "bathrooms": 4,
+                "skiAccess": true
+            },
+            "userEmail": "rachelcarter@example.com",
+            "createdAt": "2023-11-29T10:25:00.000Z",
+            "updatedAt": "2023-11-29T10:25:00.000Z"
+        },
+        {
+            "id": "695391b1153916bc67b5dcf2",
+            "title": "Lakeview Retreat",
+            "description": "Relax by the lake in this cozy retreat",
+            "price": 110000,
+            "address": "24 Lakeside Lane",
+            "city": "Lake Placid",
+            "country": "USA",
+            "image": "lakeviewRetreatImageUrl.jpg",
+            "facilities": {
+                "beds": 2,
+                "bathrooms": 2,
+                "lakeView": true
+            },
+            "userEmail": "jamesandrews@example.com",
+            "createdAt": "2023-11-30T12:10:00.000Z",
+            "updatedAt": "2023-11-30T12:10:00.000Z"
+        },
+        {
+            "id": "795391b1153916bc67b5dcf3",
+            "title": "Urban Loft Studio",
+            "description": "Modern loft studio in the heart of the city",
+            "price": 90000,
+            "address": "101 Loft Avenue",
+            "city": "Chicago",
+            "country": "USA",
+            "image": "loftStudioImageUrl.jpg",
+            "facilities": {
+                "beds": 1,
+                "bathrooms": 1,
+                "balcony": true
+            },
+            "userEmail": "michellejackson@example.com",
+            "createdAt": "2023-12-01T09:50:00.000Z",
+            "updatedAt": "2023-12-01T09:50:00.000Z"
+        }
+    
+]
