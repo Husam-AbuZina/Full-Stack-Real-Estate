@@ -4,10 +4,9 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
 import useHeaderColor from "../../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
-import { Link, NavLink } from 'react-router-dom'
-import { useAuth0 } from '@auth0/auth0-react'
+import { Link, NavLink } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
-
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -37,14 +36,16 @@ const Header = () => {
 
             <a href="mailto:husamzinap@gmail.com">Contact</a>
             {/* login button */}
-            {!isAuthenticated ?
+            {!isAuthenticated ? (
               <button className="button" onClick={loginWithRedirect}>
                 Login
-              </button> :
-              <ProfileMenu user={user} logout={logout} 
-              onClick={() => console.log('Profile Clicked!------------------------------------------------------------------------')}
+              </button>
+            ) : (
+              <ProfileMenu
+                user={user}
+                logout={logout}
               />
-            }
+            )}
           </div>
         </OutsideClickHandler>
 
