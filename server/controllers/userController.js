@@ -3,6 +3,8 @@ import {prisma} from '../config/prismaConfig.js'
 
 // POST create user
 export const createUser = asyncHandler(async(req, res) => {
+    res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
+    res.setHeader('Cross-Origin-Opener-Policy', 'same-origin-allow-popups');
     console.log("creating a user");
 
     let {email} = req.body;
