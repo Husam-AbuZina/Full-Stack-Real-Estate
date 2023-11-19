@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { Auth0Provider } from '@auth0/auth0-react'
 import { MantineProvider } from '@mantine/core';
-import '@mantine/core/styles.css'
+import '@mantine/core/styles.css';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       audience="http://localhost:8000"
       scope="openid profile email"
     >
-      <MantineProvider withGlobalStyles withNormalizeCSS>
+        <MantineProvider withGlobalStyles withNormalizeCSS>
         <App />
       </MantineProvider>
     </Auth0Provider>
