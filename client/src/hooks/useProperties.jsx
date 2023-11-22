@@ -5,7 +5,7 @@ import { getAllProperties } from '../utils/api';
 function useProperties() {
 
   const { data, isLoading, isError, refetch } = useQuery(
-    "allProperties", getAllProperties, { refetchOnWindowFocus: false }
+    "allProperties", getAllProperties, { refetchOnWindowFocus: false, enabled: !!localStorage.getItem("token") }
   );
 
   return {
