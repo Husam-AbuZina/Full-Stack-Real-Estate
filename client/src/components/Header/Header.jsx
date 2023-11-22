@@ -44,14 +44,11 @@ const Header = () => {
               <ProfileMenu
                 user={user}
                 logout={logout}
-<<<<<<< HEAD
                 onClick={() =>
                   console.log(
                     "Profile Clicked!------------------------------------------------------------------------"
                   )
                 }
-=======
->>>>>>> 1e45fb9b9b7844029fdf8bae690cf4c9dc1ac7ae
               />
             )}
           </div>
